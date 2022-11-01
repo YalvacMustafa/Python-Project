@@ -280,7 +280,7 @@ def main():
     app = QApplication(sys.argv)
     pencere = Pencere()
     pencere.show()
-    sys.exit(app.exec()) #Kullanıcın Manuel Çıkış Yapmasını Sağlar.
+    sys.exit(app.exec()) 
 
 
 # Uygulamayı Çalıştırma
