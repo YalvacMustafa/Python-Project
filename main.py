@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QGridLayout, \
 from PyQt5.QtGui import QGradient, QFont, QColor, QPixmap
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent, QMediaPlaylist, \
     QMediaMetaData
-
+__author__ = "Mustafa Yalvac <mst-99@outlook.com>"
 class Pencere(QMainWindow):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -280,7 +280,7 @@ def main():
     app = QApplication(sys.argv)
     pencere = Pencere()
     pencere.show()
-    sys.exit(app.exec()) 
+    sys.exit(app.exec()) #Kullanıcın Manuel Çıkış Yapmasını Sağlar.
 
 
 # Uygulamayı Çalıştırma
