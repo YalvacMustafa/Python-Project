@@ -274,16 +274,16 @@ class Pencere(QMainWindow):
         if self.playlist.currentIndex() < 0:
             self.muzik_listesi.setCurrentRow(0)
             self.playlist.setCurrentIndex(0)
-# Uygulamaya Dönüştürme Ve Obje Oluşturma Fonksiyonu
+
 
 def main():
     app = QApplication(sys.argv)
     pencere = Pencere()
     pencere.show()
-    sys.exit(app.exec()) #Kullanıcın Manuel Çıkış Yapmasını Sağlar.
+    sys.exit(app.exec())
 
 
-# Uygulamayı Çalıştırma
+
 
 if __name__ == '__main__':
     main()
